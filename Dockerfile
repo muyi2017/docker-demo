@@ -1,6 +1,6 @@
 FROM node
 
-LABEL org.opencontainers.image.source="https://github.com/test-00909/demo-repository" \
+LABEL org.opencontainers.image.source="https://github.com/muyi2017/docker-demo" \
       org.opencontainers.image.licenses="MIT"
 
 WORKDIR /app
