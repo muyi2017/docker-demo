@@ -26,4 +26,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/${{ github.repository }}:${{ github.event.release.tag_name }}
+        tags: ghcr.io/docker-demo:${{ github.event.release.tag_name }}
